@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /consumer/v1
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:che
+    driver-class-name: org.h2.Driver
+    database-platform: org.hibernate.dialect.H2Dialect
+    username: sa
+    password:
